@@ -30,7 +30,7 @@
 https://pan.baidu.com/s/1UXRHwSMr5DMDoPOCuv6beg 
 提取码：ksv7
 
-构建的地图像这样![image-20230107174301274](D:\Unity3d\Unity大作业\Blogger.assets\image-20230107174301274.png)
+构建的地图像这样![image-20230107174301274][D:\Unity3d\Unity大作业\Blogger.assets\image-20230107174301274.png](https://github.com/hn666666/unity/blob/main/Blogger.assets/image-20230107174301274.png)
 
 ## 具体实现
 
