@@ -120,9 +120,9 @@ public class Tank_Attack : MonoBehaviour
 
 先为gameobject添加NavMeshAgent component，再将参数调合适
 
-![image-20230107181300296](https://github.com/hn666666/unity/blob/main/Blogger.assets/image-20230107181300296)
+![image-20230107181300296](https://github.com/hn666666/unity/blob/main/Blogger.assets/image-20230107181300296.png)
 
-![image-20230107181505627](https://github.com/hn666666/unity/blob/main/Blogger.assets/image-20230107181505627)
+![image-20230107181505627](https://github.com/hn666666/unity/blob/main/Blogger.assets/image-20230107181505627.png)
 
 3d导航很简单，只要将Enemy控件NavMeshAgent的目的地destination设置为Player position即可
 
@@ -209,7 +209,7 @@ void Start()
 
 将Shell.cs代码add到Shell预制体上
 
-![image-20230107191935929](https://github.com/hn666666/unity/blob/main/Blogger.assets/20230107191935929.png)
+![image-20230107191935929](https://github.com/hn666666/unity/blob/main/Blogger.assets/image-20230107191935929.png)
 
 ![image-20230107191952706](https://github.com/hn666666/unity/blob/main/Blogger.assets/image-20230107191952706.png)
 
@@ -221,7 +221,7 @@ OnTriggerEnter(Collier collider) Shell碰撞到的物体作为参数传入
 
 xx.SendMessage("methodName")调用此游戏对象中的每个 [MonoBehaviour](https://docs.unity3d.com/cn/2019.4/ScriptReference/MonoBehaviour.html) 上名为 `methodName` 的方法
 
-小技巧：collider.tag区分碰撞体的类别。我们设置Player游戏对象的tag为Playear, Enemy游戏对象的tag为Enemy![image-20230107192945452](D:\Unity3d\Unity大作业\Blogger.assets\image-20230107192945452.png)
+小技巧：collider.tag区分碰撞体的类别。我们设置Player游戏对象的tag为Playear, Enemy游戏对象的tag为Enemy![image-20230107192945452](https://github.com/hn666666/unity/blob/main/Blogger.assets/image-20230107192945452.png)
 
 若是NPC发射的子弹碰撞到玩家，玩家减血；若是玩家发射的子弹碰撞到NPC，NPC减血
 
