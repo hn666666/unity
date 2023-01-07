@@ -1,0 +1,15 @@
+.vscode/
+Assembly-CSharp-Editor.csproj
+Assembly-CSharp-firstpass.csproj
+Assembly-CSharp.csproj
+Assets/
+Blogger.assets/
+Image/
+Library/
+Logs/
+Packages/
+ProjectSettings/
+Temp/
+"Unity\345\244\247\344\275\234\344\270\232.sln"
+UserSettings/
+obj/
