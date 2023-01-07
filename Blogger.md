@@ -38,7 +38,7 @@ https://pan.baidu.com/s/1UXRHwSMr5DMDoPOCuv6beg
 
 #### Tank_Movement.cs (移动)
 
-![image-20230107174504132](D:\Unity3d\Unity大作业\Blogger.assets\image-20230107174504132.png)
+![image-20230107174504132](https://github.com/hn666666/unity/blob/main/Blogger.assets/image-20230107174504132.png)
 
 ```
 public class Tank_Movement : MonoBehaviour
@@ -81,7 +81,7 @@ public class Tank_Movement : MonoBehaviour
 
 #### Tank_Attack.cs (攻击)
 
-![image-20230107180247181](D:\Unity3d\Unity大作业\Blogger.assets\image-20230107180247181.png)
+![image-20230107180247181](https://github.com/hn666666/unity/blob/main/Blogger.assets/image-20230107180247181.png)
 
 小技巧：在坦克上添加emptygameobject 作为发射点(在坦克上绑定位置)
 
@@ -120,9 +120,9 @@ public class Tank_Attack : MonoBehaviour
 
 先为gameobject添加NavMeshAgent component，再将参数调合适
 
-![image-20230107181300296](D:\Unity3d\Unity大作业\Blogger.assets\image-20230107181300296.png)
+![image-20230107181300296](https://github.com/hn666666/unity/blob/main/Blogger.assets/image-20230107181300296)
 
-![image-20230107181505627](D:\Unity3d\Unity大作业\Blogger.assets\image-20230107181505627.png)
+![image-20230107181505627](https://github.com/hn666666/unity/blob/main/Blogger.assets/image-20230107181505627)
 
 3d导航很简单，只要将Enemy控件NavMeshAgent的目的地destination设置为Player position即可
 
@@ -209,13 +209,13 @@ void Start()
 
 将Shell.cs代码add到Shell预制体上
 
-![image-20230107191935929](D:\Unity3d\Unity大作业\Blogger.assets\image-20230107191935929.png)
+![image-20230107191935929](https://github.com/hn666666/unity/blob/main/Blogger.assets/20230107191935929.png)
 
-![image-20230107191952706](D:\Unity3d\Unity大作业\Blogger.assets\image-20230107191952706.png)
+![image-20230107191952706](https://github.com/hn666666/unity/blob/main/Blogger.assets/image-20230107191952706.png)
 
 Shell、Player、Enemy都有刚体和碰撞体，Shell开启碰撞检测
 
-![image-20230107192440951](D:\Unity3d\Unity大作业\Blogger.assets\image-20230107192440951.png)
+![image-20230107192440951](https://github.com/hn666666/unity/blob/main/Blogger.assets/image-20230107192440951.png)
 
 OnTriggerEnter(Collier collider) Shell碰撞到的物体作为参数传入 
 
@@ -243,13 +243,13 @@ xx.SendMessage("methodName")调用此游戏对象中的每个 [MonoBehaviour](ht
 
 ### Slider 血条
 
-![image-20230107194014593](D:\Unity3d\Unity大作业\Blogger.assets\image-20230107194014593.png)
+![image-20230107194014593](https://github.com/hn666666/unity/blob/main/Blogger.assets/image-20230107194014593.png)
 
 #### 血量显示
 
 通过以上步骤和资源将血条作为子对象绑定到tank对象上
 
-![image-20230107194247170](D:\Unity3d\Unity大作业\Blogger.assets\image-20230107194247170.png)
+![image-20230107194247170](https://github.com/hn666666/unity/blob/main/Blogger.assets/image-20230107194247170.png)
 
 #### Tank_Health.cs (减少血量)
 
@@ -313,7 +313,7 @@ GameObject.Instantiate(tankExplosion, transform.position + Vector3.up, transform
 
 Main场景创建空对象添加Audio Source组件
 
-![image-20230107201012851](D:\Unity3d\Unity大作业\Blogger.assets\image-20230107201012851.png)
+![image-20230107201012851](https://github.com/hn666666/unity/blob/main/Blogger.assets/image-20230107201012851.png)
 
 ##### 子弹爆炸音
 
@@ -323,7 +323,7 @@ Shell.cs的OnTriggerEnter()里
 AudioSource.PlayClipAtPoint(shellExplosionAudio, transform.position);
 ```
 
-![image-20230107201200793](D:\Unity3d\Unity大作业\Blogger.assets\image-20230107201200793.png)
+![image-20230107201200793](https://github.com/hn666666/unity/blob/main/Blogger.assets/image-20230107201200793.png)
 
 同理实现了坦克爆炸音和启动音，静止音
 
