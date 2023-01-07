@@ -2,6 +2,8 @@
 
 演示视频：[Unity大作业-坦克大战_演示](https://www.bilibili.com/video/BV1BP411F76P/?vd_source=4bf91179b97450a67d87e468e26f9978)
 
+博客地址：[我的博客](https://blog.csdn.net/m0_53694418/article/details/128597696?csdn_share_tail=%7B%22type%22%3A%22blog%22%2C%22rType%22%3A%22article%22%2C%22rId%22%3A%22128597696%22%2C%22source%22%3A%22m0_53694418%22%7D)
+
 项目地址：[坦克大战](https://github.com/hn666666/unity)
 
 参考视频：[坦克大战教程](https://www.bilibili.com/video/BV1ua4y1L7oY/?spm_id_from=333.337.search-card.all.click&vd_source=4bf91179b97450a67d87e468e26f9978)
